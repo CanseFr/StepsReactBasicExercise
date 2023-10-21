@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Counter from "./Counter";
-import ListCard from "./Card";
-import CounterPlus from "./CounterPlus";
-import Accordion from "./AccordionItem";
-import AccordionPlus from "./AccordionPlus";
-import Counta from "./Counta";
-import TestExp from "./TestExp";
-import CurrencyConvert from "./CurrencyConvert";
-import UseGeoLocation from "./UseGeoLocation";
+import Counter from "./component/Count/Counter";
+import ListCard from "./component/Card/Card";
+import CounterPlus from "./component/Count/CounterPlus";
+import Accordion from "./component/Accordion/AccordionItem";
+import AccordionPlus from "./component/Accordion/AccordionPlus";
+import Counta from "./component/Count/Counta";
+import TestExp from "./component/Accordion/TestExp";
+import CurrencyConvert from "./component/Currency/CurrencyConvert";
+import UseGeoLocation from "./component/Locate/UseGeoLocation";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -32,24 +32,12 @@ root.render(
             txtCollapse='Voir moin'
             firstCharVisible={40}
         >
-                Salut je suis un fou dans ma tete
-                depuis que j'ai validé ma licence
-                toussa ouais ouais lafamille on est
-                la, pif paf pouf dans ta tete et dans
-                ton cul ouais ouais sisi la famille
-                yoyoyoyo, vive la bretagne les moules
-                qui sente bon la chatte toussa
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, sem ut mattis aliquet, ligula odio gravida nulla, vitae accumsan libero diam et turpis. Etiam volutpat dolor ante, quis fringilla tortor tempor sed. Integer ut metus nisi. Nulla sodales purus a arcu placerat auctor. Nam ac molestie tellus
         </TestExp>
           <TestExp>
-                  Salut je suis un fou dans ma tete
-                  depuis que j'ai validé ma licence
-                  toussa ouais ouais lafamille on est
-                  la, pif paf pouf dans ta tete et dans
-                  ton cul ouais ouais sisi la famille
-                  yoyoyoyo, vive la bretagne les moules
-                  qui sente bon la chatte toussa
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, sem ut mattis aliquet, ligula odio gravida nulla, vitae accumsan libero diam et turpis. Etiam volutpat dolor ante, quis fringilla tortor tempor sed. Integer ut metus nisi. Nulla sodales purus a arcu placerat auctor. Nam ac molestie tellus
           </TestExp>
-          <TestExp >qsdqsdqsdqdqsdqsdqdqsdqsdqsdqsdqsdqsdqsdqsdqsdfdgergqedfvqervqDVerv</TestExp>
+          <TestExp >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, sem ut mattis aliquet, ligula odio gravida nulla, vitae accumsan libero diam et turpis. Etiam volutpat dolor ante, quis fringilla tortor tempor sed. Integer ut metus nisi. Nulla sodales purus a arcu placerat auctor. Nam ac molestie tellus</TestExp>
 
           <CurrencyConvert/>
           <UseGeoLocation/>
