@@ -41,13 +41,13 @@ export default function CounterPlus(){
                 <input onChange={handleStep} value={step} type="range" min={1} max={10}/> {step}
             </div>
 
-            <button onClick={minusIncrementor}>-</button>
+            <button className="button-main" onClick={minusIncrementor}>-</button>
                 <input onChange={handleInput} type="number" value={incrementor} />
-            <button onClick={plusIncrementor}>+</button>
+            <button className="button-main" onClick={plusIncrementor}>+</button>
 
             <p>{incrementor} days from is {date.toDateString()} </p>
 
-            <button onClick={resetIncrementor}>Reset</button>
+            <button className="button-main" onClick={resetIncrementor}>Reset</button>
 
         </div>
     )

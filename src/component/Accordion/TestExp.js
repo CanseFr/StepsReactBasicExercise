@@ -33,7 +33,7 @@ export default function TestExp({
         <div className={className}>
             <p>
                 { !isOpenBtn ? children.slice(0,firstCharVisible) + "..." :  children} {" "}
-                <button style={{color:colorBtn}} onClick={ handleVisibility } >
+                <button className="button-main" style={{color:colorBtn}} onClick={ handleVisibility } >
                     { !isOpenBtn ? txtExpand :  txtCollapse}
                 </button>
             </p>

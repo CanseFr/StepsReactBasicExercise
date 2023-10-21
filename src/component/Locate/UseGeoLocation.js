@@ -35,7 +35,7 @@ export default function UseGeoLocation(){
         <div className="containerCounter">
 
         <div>
-            <button onClick={getPosition} disabled={isLoading}>
+            <button className="button-main" onClick={getPosition} disabled={isLoading}>
                 Get my position
             </button>
 

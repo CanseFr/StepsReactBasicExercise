@@ -11,6 +11,7 @@ import Counta from "./component/Count/Counta";
 import TestExp from "./component/Accordion/TestExp";
 import CurrencyConvert from "./component/Currency/CurrencyConvert";
 import UseGeoLocation from "./component/Locate/UseGeoLocation";
+import BankAccount from "./component/Bank/BankAccount";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -40,7 +41,10 @@ root.render(
           <TestExp >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, sem ut mattis aliquet, ligula odio gravida nulla, vitae accumsan libero diam et turpis. Etiam volutpat dolor ante, quis fringilla tortor tempor sed. Integer ut metus nisi. Nulla sodales purus a arcu placerat auctor. Nam ac molestie tellus</TestExp>
 
           <CurrencyConvert/>
+      <p> </p>
           <UseGeoLocation/>
+      <p> </p>
+        <BankAccount/>
   </React.StrictMode>
 );
 

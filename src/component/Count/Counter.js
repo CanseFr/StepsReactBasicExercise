@@ -25,14 +25,14 @@ export default function Counter(){
     }
 
     return (
-        <div className="containerCounter">
+        <div className="containerCounter ">
 
             <div>
-                <button onClick={minusStep} > - </button> Step : {step} <button onClick={addStep} > + </button>
+                <button className="button-main" onClick={minusStep} > - </button> Step : {step} <button className="button-main" onClick={addStep} > + </button>
             </div>
 
             <div>
-                <button onClick={ minusCount } > - </button> Count : {count} <button onClick={ addCount } > + </button>
+                <button className="button-main" onClick={ minusCount } > - </button> Count : {count} <button className="button-main" onClick={ addCount } > + </button>
             </div>
 
             <div>
