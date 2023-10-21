@@ -1,4 +1,5 @@
 import {useState} from "react";
+import ButtonClassic from "../Material/ButtonClassic";
 
 export default function CounterPlus(){
 
@@ -41,13 +42,13 @@ export default function CounterPlus(){
                 <input onChange={handleStep} value={step} type="range" min={1} max={10}/> {step}
             </div>
 
-            <button className="button-main" onClick={minusIncrementor}>-</button>
+            <ButtonClassic onClick={minusIncrementor}>-</ButtonClassic>
                 <input onChange={handleInput} type="number" value={incrementor} />
-            <button className="button-main" onClick={plusIncrementor}>+</button>
+            <ButtonClassic  onClick={plusIncrementor}>+</ButtonClassic>
 
             <p>{incrementor} days from is {date.toDateString()} </p>
 
-            <button className="button-main" onClick={resetIncrementor}>Reset</button>
+            <ButtonClassic  onClick={resetIncrementor}>Reset</ButtonClassic>
 
         </div>
     )

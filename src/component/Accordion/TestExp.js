@@ -1,5 +1,6 @@
 import {useState} from "react";
 import PropTypes from "prop-types";
+import ButtonClassic from "../Material/ButtonClassic";
 
 TestExp.protoType = {
     children : PropTypes.string,
@@ -13,7 +14,7 @@ TestExp.protoType = {
 
 export default function TestExp({
         children,
-        className = "",
+        className = "containerCounter",
         txtExpand = "See more",
         txtCollapse = "See less",
         colorBtn = "",
@@ -33,9 +34,9 @@ export default function TestExp({
         <div className={className}>
             <p>
                 { !isOpenBtn ? children.slice(0,firstCharVisible) + "..." :  children} {" "}
-                <button className="button-main" style={{color:colorBtn}} onClick={ handleVisibility } >
+                <ButtonClassic style={{color:colorBtn}} onClick={ handleVisibility } >
                     { !isOpenBtn ? txtExpand :  txtCollapse}
-                </button>
+                </ButtonClassic>
             </p>
         </div>
     )

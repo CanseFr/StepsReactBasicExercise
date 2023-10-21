@@ -27,7 +27,7 @@ root.render(
         <AccordionPlus/>
         <Counta/>
         <TestExp
-            className="txt-exp-cont"
+            className="containerCounter"
             colorBtn="red"
             txtExpand='Voir plus'
             txtCollapse='Voir moin'
@@ -35,10 +35,12 @@ root.render(
         >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, sem ut mattis aliquet, ligula odio gravida nulla, vitae accumsan libero diam et turpis. Etiam volutpat dolor ante, quis fringilla tortor tempor sed. Integer ut metus nisi. Nulla sodales purus a arcu placerat auctor. Nam ac molestie tellus
         </TestExp>
-          <TestExp>
+      <p> </p>
+      <TestExp>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, sem ut mattis aliquet, ligula odio gravida nulla, vitae accumsan libero diam et turpis. Etiam volutpat dolor ante, quis fringilla tortor tempor sed. Integer ut metus nisi. Nulla sodales purus a arcu placerat auctor. Nam ac molestie tellus
           </TestExp>
-          <TestExp >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, sem ut mattis aliquet, ligula odio gravida nulla, vitae accumsan libero diam et turpis. Etiam volutpat dolor ante, quis fringilla tortor tempor sed. Integer ut metus nisi. Nulla sodales purus a arcu placerat auctor. Nam ac molestie tellus</TestExp>
+      <p> </p>
+      <TestExp >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, sem ut mattis aliquet, ligula odio gravida nulla, vitae accumsan libero diam et turpis. Etiam volutpat dolor ante, quis fringilla tortor tempor sed. Integer ut metus nisi. Nulla sodales purus a arcu placerat auctor. Nam ac molestie tellus</TestExp>
 
           <CurrencyConvert/>
       <p> </p>

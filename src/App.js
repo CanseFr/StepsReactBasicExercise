@@ -1,4 +1,5 @@
 import {useState} from "react";
+import ButtonClassic from "./component/Material/ButtonClassic";
 
 
 const messages = [
@@ -49,8 +50,8 @@ export default function App(){
                 </StepMessage>
 
                 <div className="buttons">
-                    <Button onClick={handlerPrevious} bgColor={'#7950F2'} textColor={'#fff'} >👈 Previous </Button>
-                    <Button onClick={handleNext} bgColor={'#7950F2'} textColor={'#fff'} >Next 👉</Button>
+                    <ButtonClassic onClick={handlerPrevious} bgColor={'#7950F2'} textColor={'#fff'} >👈 Previous </ButtonClassic>
+                    <ButtonClassic onClick={handleNext} bgColor={'#7950F2'} textColor={'#fff'} >Next 👉</ButtonClassic>
                 </div>
 
             </div>
@@ -67,9 +68,3 @@ function StepMessage({children,step}){
 
 }
 
-function Button({textColor, bgColor, onClick, children }){
-    return (<button style={{backgroundColor: bgColor, color: textColor}}
-            onClick={onClick }
-    >{children}
-    </button>)
-}

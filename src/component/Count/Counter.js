@@ -1,4 +1,5 @@
 import {useState} from "react";
+import ButtonClassic from "../Material/ButtonClassic";
 
 export default function Counter(){
 
@@ -28,11 +29,11 @@ export default function Counter(){
         <div className="containerCounter ">
 
             <div>
-                <button className="button-main" onClick={minusStep} > - </button> Step : {step} <button className="button-main" onClick={addStep} > + </button>
+                <ButtonClassic onClick={minusStep} > - </ButtonClassic> Step : {step} <ButtonClassic  onClick={addStep} > + </ButtonClassic>
             </div>
 
             <div>
-                <button className="button-main" onClick={ minusCount } > - </button> Count : {count} <button className="button-main" onClick={ addCount } > + </button>
+                <ButtonClassic onClick={ minusCount } > - </ButtonClassic> Count : {count} <ButtonClassic  onClick={ addCount } > + </ButtonClassic>
             </div>
 
             <div>

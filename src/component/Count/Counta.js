@@ -102,6 +102,7 @@
 
 
 import {useState} from "react";
+import ButtonClassic from "../Material/ButtonClassic";
 
 export default function Counta(){
 
@@ -181,6 +182,6 @@ function Display({amount,setAmount,ownTips,setOwnTips,otherTips,setOtherTips}){
 
     return <div>
         <p>You pay {totalBillTips + amount}  (${amount} + ${averageTips})</p>
-        <button onClick={handleReset} >Reset</button>
+        <ButtonClassic onClick={handleReset} >Reset</ButtonClassic>
     </div>
 }
